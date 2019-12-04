@@ -7,12 +7,22 @@
     padding: 100px;
 }
 
+/* .deck {
+    
+} */
+
+
 .cards {
     width: 250px;
-    height: 100%;
+    height: 400px;
     max-width: 100%;
     max-height: 100%;
     position: relative;
+    margin-bottom: 50px;
+}
+
+div div div div div div div.cards.card.text-white.card-body {
+    margin-bottom: 50px;
 }
 
 .images {
@@ -31,3 +41,8 @@
     width: 100%;
 }
 
+/* @media only screen and (max-width: 760px) {
+    .cards {
+        margin-bottom: 40px;
+    }
+} */

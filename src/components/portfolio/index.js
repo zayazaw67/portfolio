@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {
     Container, Row, Button, Modal, ModalHeader, ModalBody, ModalFooter,
-    Card, CardImg, CardBody, CardTitle, CardSubtitle, CardDeck,
+    Card, CardImg, CardBody, CardTitle, CardDeck, CardText
 } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
@@ -53,18 +53,17 @@ class Portfolio extends Component {
     // const Portfolio = (props) => {
     render() {
         return (
-            <div className="background">
-                <div className="portfolio">
+            <div className="background portfolio">
                     <Container fluid>
                         <Row className="justify-content-center">
-                            <CardDeck>
+                            <CardDeck className="deck justify-content-center">
 
                                 <ScrollAnimation delay={1000} duration="1" animateIn='bounceInLeft' animateOut='bounceOutLeft'>
                                     <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} className="cards">
                                         <CardTitle><h3>Budget Tracker</h3></CardTitle>
                                         <CardImg className="images image-1" top width="100%" src={budgetTracker} alt="Preview of Budget Tracker" onClick={this.toggleBudgetTrackerModal} />
                                         <CardBody>
-                                            <CardSubtitle>Built with MySQL, handlebars, JQuery, and NodeJs </CardSubtitle>
+                                            <CardText>Built with MySQL, handlebars, JQuery, and NodeJs </CardText>
                                             <Button color="secondary" onClick={this.budgetRepoRedirect}>GitHub Repo</Button>
                                         </CardBody>
                                     </Card>
@@ -75,38 +74,37 @@ class Portfolio extends Component {
                                         <CardTitle><h3>FraigsList</h3></CardTitle>
                                         <CardImg className="images image-2" top width="100%" src={fraigslist} alt="Preview of Fraigslist" onClick={this.toggleFraigslistModal} />
                                         <CardBody>
-                                            <CardSubtitle>Built with the full MERN Stack (MongoDB, Express, React, Node).</CardSubtitle>
+                                            <CardText>Built with the full MERN Stack (MongoDB, Express, React, Node).</CardText>
                                             <Button color="secondary" onClick={this.fraigsRepoRedirect}>GitHub Repo</Button>
                                         </CardBody>
                                     </Card>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation delay={500} duration="1" animateIn='bounceInRight' animateOut='bounceOutRight'>
-                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} className="cards ">
+                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} className="cards">
                                         <CardTitle><h3>Bamazon</h3></CardTitle>
                                         <CardImg className="images image-3" top width="100%" src={bamazon} alt="Preview of Bamazon" onClick={this.toggleBamazonModal} />
                                         <CardBody>
-                                            <CardSubtitle>Built with Node, JavaScript, JQuery, and MySQL.</CardSubtitle>
+                                            <CardText>Built with Node, JavaScript, JQuery, and MySQL.</CardText>
                                             <Button color="secondary" onClick={this.bamazonRepoRedirect}>GitHub Repo</Button>
                                         </CardBody>
                                     </Card>
                                 </ScrollAnimation>
 
                                 <ScrollAnimation delay={1500} duration="1" animateIn='bounceInRight' animateOut='bounceOutRight'>
-                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} className="cards ">
+                                    <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} className="cards">
                                         <CardTitle><h3>Placeholder</h3></CardTitle>
                                         <CardImg className="images image-3" top width="100%" src={bamazon} alt="Preview of Bamazon" onClick={this.toggleBamazonModal} />
                                         <CardBody>
-                                            <CardSubtitle>Built with Node, JavaScript, JQuery, and MySQL.</CardSubtitle>
+                                            <CardText>Built with Node, JavaScript, JQuery, and MySQL.</CardText>
                                             <Button color="secondary" onClick={this.bamazonRepoRedirect}>GitHub Repo</Button>
                                         </CardBody>
                                     </Card>
                                 </ScrollAnimation>
-                                
+
                             </CardDeck>
                         </Row>
                     </Container>
-                </div>
 
 
                 <div className="modals">
