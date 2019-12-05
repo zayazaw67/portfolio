@@ -106,7 +106,6 @@ class Portfolio extends Component {
                         </Row>
                     </Container>
 
-
                 <div className="modals">
                     <div>
                         <Modal size="lg" id="bamazonModal" className="modals modal-dialog modal-dialog-centered" toggle={this.toggleBudgetTrackerModal} isOpen={this.state.budgetTrackerModal} style={{ opacity: 1 }}>

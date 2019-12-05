@@ -1,7 +1,8 @@
 .bio {
     padding: 100px;
-    background-image: url('../../images/portfoliowp.png'); 
-
+    background: rgb(3,57,106,1);
+    background: linear-gradient(90deg, rgba(3,57,106,1) 0%, rgba(18,176,200) 100%);
+    width: 100%;
 }
 
 .details {
