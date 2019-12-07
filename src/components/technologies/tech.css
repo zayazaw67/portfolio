@@ -1,5 +1,9 @@
-.tech {
+.techPadding {
     padding: 100px;
+}
+
+.tech {
+    text-align: center;
 }
 
 .techIntro {

@@ -12,3 +12,8 @@
 .picture {
     border-radius: 30%;
 }
+
+.about {
+    margin-top: 10px;
+    float: left;
+}
