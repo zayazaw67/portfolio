@@ -7,11 +7,6 @@
     padding: 100px;
 }
 
-/* .deck {
-    
-} */
-
-
 .cards {
     width: 250px;
     height: 400px;
@@ -40,9 +35,3 @@ div div div div div div div.cards.card.text-white.card-body {
 .gifs {
     width: 100%;
 }
-
-/* @media only screen and (max-width: 760px) {
-    .cards {
-        margin-bottom: 40px;
-    }
-} */

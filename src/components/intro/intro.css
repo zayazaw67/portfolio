@@ -22,4 +22,24 @@
     opacity: 0;
 }
 
+.my-3 {
+    width: 20vw;
+}
 
+.icon {
+    margin: 5px;
+}
+
+.icon:hover {
+    transform: scale(2);
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.rowPadding {
+    padding: 20px;
+}
+
+.skills {
+    margin: 20px
+}

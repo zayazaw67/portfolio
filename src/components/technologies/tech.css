@@ -1,0 +1,30 @@
+.tech {
+    padding: 100px;
+}
+
+.techIntro {
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.skillSet1 {
+    font-size: 20px;
+}
+
+.skills {
+    margin: 30px
+}
+
+.otherSkills {
+    margin-top: 30px;
+}
+
+.others {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.skillSet2 {
+    font-size: 18px;
+}

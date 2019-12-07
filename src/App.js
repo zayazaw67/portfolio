@@ -4,7 +4,7 @@ import './App.css';
 import Intro from './components/intro';
 import Bio from './components/bio';
 import Portfolio from './components/portfolio';
-
+import Tech from './components/technologies';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Navbar />
       <Intro />
       <Bio />
+      <Tech />
       <Portfolio />
     </div>
   );
