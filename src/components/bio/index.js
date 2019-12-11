@@ -22,20 +22,21 @@ const Bio = () => {
           <Col md='9'>
             <div className="details">
               <ScrollAnimation delay={1000} animateIn='bounce' initiallyVisible={true} animateOnce={true}>
-                <Row><strong>Full-Stack Web Developer, Competitive Gamer, Telephile</strong></Row>
+                <Row><strong><u>Full-Stack Web Developer, Competitive Gamer, Telephile</u></strong></Row>
                 <Row className="about">
                   Before diving into web development, I had an interest in how things work. This stemmed from video games.
                   I always wanted to figure out why something happens when you did something, and now I try to think in code for every game I play.
                   Technology has always been in my life and is extremely important to me. When it comes to tech and electronics, I'm highly
                   versatile, well-read, and motivated to incorporating new things into my life.
                   <p>I started just like everyone else, knowing little to nothing.
-                  I didn't like the idea of being bad at something I enjoyed, and so I seek to continuously improve myself every day, whether it is 
+                  I didn't like the idea of being bad at something I enjoyed, and so I seek to continuously improve myself every day, whether it is
                   through code, improving my communication ability, or even just getting better at video games.</p>
                 </Row>
               </ScrollAnimation>
             </div>
           </Col>
         </Row>
+
       </Container>
     </div >
   );
