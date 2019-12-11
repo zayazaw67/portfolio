@@ -77,11 +77,6 @@ class Portfolio extends Component {
         window.open('https://github.com/zayazaw67/Clicky-React');
     };
 
-    githubProfile = () => {
-        window.open('https://github.com/zayazaw67');
-    };
-
-    // const Portfolio = (props) => {
     render() {
         return (
             <div className="background portfolio">
@@ -149,7 +144,7 @@ class Portfolio extends Component {
                     <Row>
                         <Col className="additionals">
                             If you liked any of these projects and want to see how I built up the skills to learn these, please consider visiting my <span> </span>
-                            <a href="https://github.com/zayazaw67"><u>Github</u></a>!
+                            <a href="https://github.com/zayazaw67" className='githubRedirect' target="_blank" rel="noopener noreferrer">Github</a>!
                         </Col>
                     </Row>
                 </Container>

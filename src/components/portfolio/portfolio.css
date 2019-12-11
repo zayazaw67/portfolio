@@ -40,6 +40,10 @@ div div div div div div div.cards.card.text-white.card-body {
     color: white
 }
 
+.githubRedirect {
+    text-decoration: underline;
+}
+
 a:visited {
     color: violet;
 }
