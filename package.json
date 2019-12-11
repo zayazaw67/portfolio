@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://zaya-zaw.com",
+  "homepage": "http://zaya-zaw.info",
   "dependencies": {
     "animate.css": "^3.7.2",
     "bootstrap": "^4.3.1",
