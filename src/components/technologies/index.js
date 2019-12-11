@@ -11,9 +11,9 @@ import './tech.css';
 
 const Tech = () => {
     return (
-        <div className="techPadding">
+        <div className="tech techBg">
             <Container>
-                <div className="tech">
+                <div className="techText">
                     <Row>
                         <Col className="justify-content-center">
                             <div className='techIntro'>Here are some of the technical skills I have acquired</div>

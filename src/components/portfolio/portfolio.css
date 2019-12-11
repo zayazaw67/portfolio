@@ -6,7 +6,17 @@
 .portfolio {
     padding: 100px;
     text-align: center;
+}
 
+.portfolioTitle {
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: whitesmoke
+}
+
+.portfolioItems {
+    margin-top: 40px
 }
 
 .cards {
@@ -19,7 +29,19 @@
 }
 
 div div div div div div div.cards.card.text-white.card-body {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.additionals {
+    color: white;
+}
+
+.modals {
+    color: white
+}
+
+a:visited {
+    color: violet;
 }
 
 .images {

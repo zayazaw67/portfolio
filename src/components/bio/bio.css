@@ -1,8 +1,10 @@
 .bio {
     padding: 100px;
-    background: rgb(3,57,106,1);
-    background: linear-gradient(90deg, rgba(3,57,106,1) 0%, rgba(18,176,200) 100%);
+    background: rgb(106,110,149);
+    background: linear-gradient(90deg, rgba(106,110,149,1) 0%, rgba(12,23,79,1) 43%, rgba(0,12,52,1) 100%);
     width: 100%;
+    color: whitesmoke;
+
 }
 
 .details {

@@ -24,7 +24,7 @@ class Intro extends React.Component {
                     <Row>
                         <Col md="6">
                             <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-                                <h1 className="display-3">Hi, you've reached my page.</h1>
+                                <h1 className="display-3"> &lt;Zaya Zaw></h1>
                             </ScrollAnimation>
                             <hr className="my-2" />
                             <ScrollAnimation delay={500} animateIn='fadeIn' animateOnce={true}>
