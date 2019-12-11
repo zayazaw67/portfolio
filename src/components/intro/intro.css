@@ -59,14 +59,15 @@
     margin: 20px
 }
 
-@media screen and (max-width: 838px) {
+@media screen and (max-width: 954px) {
     .intro {
         height: auto;
     }
   }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 844px) {
     .pic {
         display: none;
+        
     }
-  }
+}
