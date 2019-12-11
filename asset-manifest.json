@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b342f45c.chunk.css",
+    "main.js": "/portfolio/static/js/main.3ed395db.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3ed395db.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.86a05020.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.86a05020.js.map",
+    "static/css/2.3966abe9.chunk.css": "/portfolio/static/css/2.3966abe9.chunk.css",
+    "static/js/2.fcfa7676.chunk.js": "/portfolio/static/js/2.fcfa7676.chunk.js",
+    "static/js/2.fcfa7676.chunk.js.map": "/portfolio/static/js/2.fcfa7676.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.c168d739d4659ba6b3024054781b889d.js": "/portfolio/precache-manifest.c168d739d4659ba6b3024054781b889d.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.3966abe9.chunk.css.map": "/portfolio/static/css/2.3966abe9.chunk.css.map",
+    "static/css/main.b342f45c.chunk.css.map": "/portfolio/static/css/main.b342f45c.chunk.css.map",
+    "static/media/bamazon.png": "/portfolio/static/media/bamazon.b110719f.png",
+    "static/media/bamazonpreview.gif": "/portfolio/static/media/bamazonpreview.56cd5e30.gif",
+    "static/media/intro.css": "/portfolio/static/media/bg.22735574.png",
+    "static/media/budgettracker.png": "/portfolio/static/media/budgettracker.eaaab2b6.png",
+    "static/media/clickgame.png": "/portfolio/static/media/clickgame.f9c3dd1c.png",
+    "static/media/clickpreview.gif": "/portfolio/static/media/clickpreview.4f683767.gif",
+    "static/media/fraigslist.png": "/portfolio/static/media/fraigslist.3592d3dd.png",
+    "static/media/fraigspreview.gif": "/portfolio/static/media/fraigspreview.0c1d90c6.gif",
+    "static/media/trackerpreview.gif": "/portfolio/static/media/trackerpreview.c10d7eb6.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86a05020.js",
+    "static/css/2.3966abe9.chunk.css",
+    "static/js/2.fcfa7676.chunk.js",
+    "static/css/main.b342f45c.chunk.css",
+    "static/js/main.3ed395db.chunk.js"
+  ]
+}
