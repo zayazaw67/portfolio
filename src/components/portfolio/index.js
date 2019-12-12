@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {
     Container, Row, Button, Modal, ModalBody, ModalFooter, Col,
-    Card, CardImg, CardBody, CardTitle, CardDeck, CardText, CardFooter
+    Card, CardImg, CardBody, CardTitle, CardDeck, CardText, 
 } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
