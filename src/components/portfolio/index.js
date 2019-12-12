@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {
     Container, Row, Button, Modal, ModalBody, ModalFooter, Col,
-    Card, CardImg, CardBody, CardTitle, CardDeck, CardText
+    Card, CardImg, CardBody, CardTitle, CardDeck, CardText, CardFooter
 } from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
@@ -143,7 +143,7 @@ class Portfolio extends Component {
                     </Row>
                     <Row>
                         <Col className="additionals">
-                            If you liked any of these projects and want to see how I built up the skills to learn these, please consider visiting my <span> </span>
+                            If you liked any of these projects and want to see how I built up the skills to learn these, please consider visiting my&nbsp;
                             <a href="https://github.com/zayazaw67" className='githubRedirect' target="_blank" rel="noopener noreferrer">Github</a>!
                         </Col>
                     </Row>

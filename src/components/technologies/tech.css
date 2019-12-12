@@ -27,7 +27,7 @@
     margin-top: 30px;
 }
 
-.others {
+.othersTitle {
     font-size: 26px;
     font-weight: bold;
 }
@@ -35,3 +35,12 @@
 .skillSet2 {
     font-size: 18px;
 }
+
+@media screen and (max-width: 576px) {
+    .skillSet2 {
+        margin-left: 20px;
+    }
+    .othersTitle {
+        text-align: center;
+    }
+  }

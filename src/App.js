@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio';
 import Tech from './components/technologies';
 import Footer from './components/footer';
 
+
 function App() {
   return (
     <div className="App">

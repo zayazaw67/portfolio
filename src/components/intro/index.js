@@ -1,12 +1,12 @@
 import React from 'react';
 import { Col, Row, Container } from 'reactstrap';
-import './intro.css';
+import { Link } from "react-scroll";
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FaGithub, FaLinkedin, FaFileAlt, } from 'react-icons/fa';
 import { MdMailOutline } from 'react-icons/md';
+import './intro.css';
 
 class Intro extends React.Component {
-
     resumeRedirect = () => {
         window.open('https://docs.google.com/document/d/1ZbmpnjxuOtTjLDIjIAWel7grny02TY848Bf948hoE7c/edit?usp=sharing');
     };
@@ -16,7 +16,6 @@ class Intro extends React.Component {
     linkedInRedirect = () => {
         window.open('https://www.linkedin.com/in/zaya-zaw-2b4462198/');
     };
-
     mailTo = () => {
         window.location.href = 'mailto:zayazaw67@gmail.com'
     }
@@ -29,18 +28,33 @@ class Intro extends React.Component {
                         <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
                             <h1 className="display-3"> &lt;Zaya Zaw></h1>
                         </ScrollAnimation>
-                        <hr className="my-2" />
+                        <hr className="hr1" />
                         <ScrollAnimation delay={500} animateIn='fadeIn' animateOnce={true}>
                             <p>My name is Zaya. I'm a learning web developer with a passion for electronics and technology.</p>
                         </ScrollAnimation>
                         <ScrollAnimation delay={750} animateIn='fadeIn' animateOnce={true}>
-                            <p>Feel free to browse some of my previous work, and read more about me.</p>
+                            <p>Feel free to browse some of&nbsp;
+                            <Link className="navContent" to='portfolio' duration={1400} smooth={true}>
+                                    <span className='portfolioRedirect'>
+                                       my work
+                                </span>.
+                            </Link>
+                            </p>
                         </ScrollAnimation>
                         <ScrollAnimation delay={1000} animateIn='fadeIn' animateOnce={true}>
-                            <p>If you like my work, feel free to check out my resume.</p>
+                            <p>Or you can read more&nbsp;
+                            <Link className="navContent" to='bio' duration={1000}  smooth={true}>
+                                    <span className='bioRedirect'>
+                                    about me
+                                </span>.
+                            </Link>
+                            </p>
                         </ScrollAnimation>
-                        <ScrollAnimation delay={1500} animateIn='fadeIn' animateOnce={true}>
-                            <hr className="my-3" />
+                        <ScrollAnimation delay={1250} animateIn='fadeIn' animateOnce={true}>
+                            <p>If you like my work, feel free to check out my <span className='resumeLink' onClick={this.resumeRedirect}>resume</span>.</p>
+                        </ScrollAnimation>
+                        <ScrollAnimation delay={1700} animateIn='fadeIn' animateOnce={true}>
+                            <hr className="hr2" />
                             <h2>
                                 <FaGithub className="icon" onClick={this.gitHubRedirect} />
                                 <FaLinkedin className="icon" onClick={this.linkedInRedirect} />

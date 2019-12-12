@@ -114,7 +114,7 @@ const Tech = () => {
                 </div>
                 <ScrollAnimation animateIn='fadeIn' delay={150}>
                     <Row className='otherSkills'>
-                        <Col xs='3' className='justify-content-center others'>
+                        <Col xs='3' className='othersTitle'>
                             Other Skills
                         </Col>
                         <Col xs='9' className='justify-content-center skillSet2'>
