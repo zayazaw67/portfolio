@@ -118,7 +118,7 @@ const Tech = () => {
                             Other Skills
                         </Col>
                         <Col xs='9' className='justify-content-center skillSet2'>
-                            APIs - Postman - MVC - Handlebars - ES6 - Creative problem solving - Strategic planning -
+                            APIs - DiscordJs - Postman - MVC - Handlebars - ES6 - Creative problem solving - Strategic planning -
                             High WPM (words per minute) - Organization - Teamwork - Microsoft Office - Adaptability - Puzzle Solving - Google
                         </Col>
                     </Row>
